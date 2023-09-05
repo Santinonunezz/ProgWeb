@@ -1,0 +1,42 @@
+ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-template-rows: auto;
+  list-style-type: none;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  background-image: url("https://cdn.pixabay.com/photo/2019/04/27/00/47/drops-4159031_1280.jpg");
+}
+
+img {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  aspect-ratio: 4/3;
+  object-fit: cover;
+}
+
+ul li {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.3s;
+}
+
+ul li:hover {
+  transform: scale(1.1);
+}
+
+button {
+  background-color: rgb(48, 165, 233);
+  border: none;
+  border-radius: 10px;
+}
