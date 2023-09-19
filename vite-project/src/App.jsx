@@ -1,10 +1,9 @@
-import { Header } from "./componentes/Header";
+import { Character } from "./componentes/Character";
 
 function App() {
   return (
     <>
-      <header />
-      hola mundo
+      <Character/>
     </>
   );
 }

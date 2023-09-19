@@ -1,0 +1,10 @@
+li {
+    list-style: none;
+}
+
+.prueba {
+    display: flex;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.87);
+    background-color: #343434;
+}
