@@ -1,10 +1,35 @@
-li {
-    list-style: none;
+
+.todo {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: auto;
+    gap: 2%;
+    background-color: black;
 }
 
-.prueba {
+.personajes {
+    border-left: 5%;
+    background: rgba(0, 0, 0, 0.082);
     display: flex;
-    justify-content: center;
+    justify-content: left;
+}
+
+img{
+    max-width: 200px;
+    max-height: 200px;
+
+}
+
+.blanco{
     color: rgba(255, 255, 255, 0.87);
-    background-color: #343434;
+}
+.caja{
+    display: flex;
+    background-color: rgb(56,55,55);
+    padding-right: 35%;
+        
+}
+
+.info{
+        
 }
